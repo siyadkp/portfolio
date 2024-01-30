@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_portfolio/screen_home/screen_home.dart';
 
 import 'res/text/text.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
               seedColor: const Color.fromARGB(255, 0, 0, 0)),
           useMaterial3: true,
         ),
-        home: HomePage(
+        home: ScreenHome(
           key: key,
         ));
   }
